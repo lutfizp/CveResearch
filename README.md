@@ -38,6 +38,7 @@ Final goal: one command to verify the target is vulnerable, one command to execu
 - Deliver **one verified CVE per working day**. A two-CVE chain counts as that day's single deliverable.
 - The day's folder is `android/<category>/<CVE>/` (or `<platform>/<category>/<CVE>/` for other platforms).
 - The day's log is `daily/YYYY-MM-DD.md`; add the CVE row to `MATRIX.md`.
+- Several people submit on the same date, so a date is not exclusive. If `daily/YYYY-MM-DD.md` already exists, use `daily/YYYY-MM-DD-<CVE>.md` instead of editing someone else's note. Never overwrite or replace a note another person wrote.
 - If a CVE is blocked, record the blocker, replace it, and still submit one entry for the day.
 - Do not batch multiple CVEs into one day and do not leave a working day without a daily note.
 - The daily note must link the CVE folder and its evidence. The mentor reviews the daily entry, not just the final folder.

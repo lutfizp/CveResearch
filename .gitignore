@@ -1,2 +1,5 @@
 .commandcode/
 REKAP_*.txt
+
+# Local-only research artifacts; never include in PR.
+/reports/
