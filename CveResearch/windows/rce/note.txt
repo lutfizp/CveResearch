@@ -1,0 +1,9 @@
+to run:
+chmod +x run.sh
+./run.sh
+
+to inspect:
+./run.sh status
+
+stop and remove:
+./run.sh stop
